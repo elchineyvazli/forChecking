@@ -1,0 +1,11 @@
+.navbarLeft {
+    display: none;
+    width: 20%;
+    height: 73px;
+    align-items: center;
+    gap: 20px !important;
+
+    svg:nth-child(1) {
+        background-color: white;
+    }
+}

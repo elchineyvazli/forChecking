@@ -1,0 +1,29 @@
+.showAllOfThem {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .showAllOfThemButton {
+        width: 190px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px #173D7A;
+        border-radius: 8px;
+        font-weight: 500;
+        font-size: 14px;
+        align-items: center;
+        background-color: white;
+        cursor: pointer;
+        transition: .8s;
+
+        &:hover {
+            background-color: black;
+            color: white;
+            border: none;
+        }
+    }
+}

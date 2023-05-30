@@ -1,0 +1,14 @@
+.why {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+
+    .whyDecorGroup {
+        position: absolute;
+        top: 0;
+        left: 110px;
+        z-index: -1;
+    }
+}

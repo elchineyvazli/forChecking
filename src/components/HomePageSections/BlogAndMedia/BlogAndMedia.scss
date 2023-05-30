@@ -1,0 +1,20 @@
+.blogAndMedia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .decorGroup1 {
+        position: absolute;
+        top: 20px;
+        left: 238px;
+        z-index: -1;
+    }
+
+    .decorGroup2 {
+        position: absolute;
+        bottom: -30px;
+        left: 208px;
+        z-index: -1;
+    }
+}

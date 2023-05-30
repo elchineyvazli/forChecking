@@ -1,0 +1,15 @@
+.aboutUs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0 100px;
+
+  .decorGroup {
+    position: absolute;
+    top: 125px;
+    left: 65px;
+    z-index: -9;
+    // border: solid 1px #000;
+  }
+}

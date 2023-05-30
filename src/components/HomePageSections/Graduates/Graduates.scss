@@ -1,0 +1,20 @@
+.graduates {
+    width: 100%;
+    height: 632px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 36px;
+    padding-top: 100px;
+
+    .decorGroupGraduate {
+        position: absolute;
+        top: 55px;
+        left: 100px;
+    }
+
+    .containerGraduate {
+        position: relative;
+        z-index: 1;
+    }
+}

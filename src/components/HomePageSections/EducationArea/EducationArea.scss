@@ -1,0 +1,15 @@
+.educationArea {
+    width: 100%;
+    height: 590px;
+    background-color: #173D7A;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 50px;
+
+    .decorGroup2 {
+        position: absolute;
+        top: 70px;
+        left: 84px;
+    }
+}

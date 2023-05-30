@@ -1,0 +1,21 @@
+.jedRecordsContainer {
+    width: 100%;
+    height: 605px;
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+    gap: 20px;
+
+    .firstImage {
+        height: 505px;
+    }
+
+    .secondPart,
+    .thirdPart,
+    .fourthPart {
+        height: 505px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
